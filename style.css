@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body{
+padding: 0;
+margin:0;
+font-family:monospace;
+
+}
+.main{
+    background-color: blanchedalmond;
+    margin:40px 150px;
+   
+}
+
+img{
+    border-radius: 50%;
+    
+    margin-top: 70px;
+}
+.profile
+{
+    padding:1px 10px;
+   
+}
+.profile2{
+    border-radius: 0px 55px 0px 55px;
+    background-color: #555;
+    color: #fff;
+}
+.profile i{
+    padding-right:3px;
+}
+.infoh4{
+    padding-top: 50px;
+}
+.profile h5{
+   padding-top: 20px;
+    padding-bottom: 3px;
+      border-bottom: 2px solid #fff;
+}
+.infoh4{
+    padding-top: 50px;
+
+    border-bottom: 2px solid #fff;
+}
+.profile p,h6{
+    padding-top:6px;
+    padding-left:10px;
+}
+.line{
+    color: black;
+    font-size: 20px;
+}
+
+.profile i{
+    padding-right: 10px;
+}
+.name{
+    background-color: black;
+}
+.study{
+    padding-top: 20px;
+    margin-left: 13px;
+}
+.study .li{
+    font-weight: 600;
+    font-size: 17px;
+}
+.study h4{
+    padding-top: 20px;
+}
+.study1{
+    float :right;
+
+}
+.study p,.skill li,.work li{
+    padding-left: 17px;
+}
+.skill{
+margin-left:15px;
+}
+li{
+    font-size:15px;
+    font-weight: 480;
+}
+.skill1{
+    border-right: 2px solid black;
+}
