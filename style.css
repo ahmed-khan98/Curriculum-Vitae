@@ -1,87 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 body{
-padding: 0;
-margin:0;
-font-family:monospace;
-
-}
-.main{
-    background-color: blanchedalmond;
-    margin:40px 150px;
-   
+    font-family: 'Montserrat', sans-serif;
 }
 
-img{
-    border-radius: 50%;
-    
-    margin-top: 70px;
+h1{
+    color:#fff;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
 }
-.profile
-{
-    padding:1px 10px;
-   
+#main{
+    text-align: center;
+    margin:0 auto;
+    background-color:#202120;
+    width: 320px;
+    height:450px;
+
 }
-.profile2{
-    border-radius: 0px 55px 0px 55px;
-    background-color: #555;
+input{
+    width: 246px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius:  3px;
+    text-align: right;
+    font-size: 20px;;
+    padding: 5px;
+    background-color:#000000 ;
     color: #fff;
 }
-.profile i{
-    padding-right:3px;
-}
-.infoh4{
-    padding-top: 50px;
-}
-.profile h5{
-   padding-top: 20px;
-    padding-bottom: 3px;
-      border-bottom: 2px solid #fff;
-}
-.infoh4{
-    padding-top: 50px;
-
-    border-bottom: 2px solid #fff;
-}
-.profile p,h6{
-    padding-top:6px;
-    padding-left:10px;
-}
-.line{
-    color: black;
+.btn{
+    width: 60px;
+    height: 60px;
+    margin: 1px auto;
+    background-color:#000000 ;
+    color:#fff;
+    border: none;
+    border-radius:  4px;
     font-size: 20px;
+    cursor: pointer;
 }
 
-.profile i{
-    padding-right: 10px;
+.btnclear{
+    margin-top: 5px;
+    width:253px;
+    height:40px;
+    border: none;
+    border-radius:  4px;
+    background-color:#000000;
+    color: #e60000;
+    font-size: 20px;
+    cursor: pointer;
 }
-.name{
-    background-color: black;
-}
-.study{
-    padding-top: 20px;
-    margin-left: 13px;
-}
-.study .li{
-    font-weight: 600;
-    font-size: 17px;
-}
-.study h4{
-    padding-top: 20px;
-}
-.study1{
-    float :right;
 
-}
-.study p,.skill li,.work li{
-    padding-left: 17px;
-}
-.skill{
-margin-left:15px;
-}
-li{
-    font-size:15px;
-    font-weight: 480;
-}
-.skill1{
-    border-right: 2px solid black;
-}
+.btnclear:hover {background-color:#262626}
+.btnclear:active{background-color:#333333}
+.btn:hover {background-color: #262626}
+.btn:active{background-color: 	#333333}
